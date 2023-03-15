@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./passForgorCSS.css">
+    <script src="https://kit.fontawesome.com/e204a237e2.js" crossorigin="anonymous"></script>
+    <script src="./scriptPass.js"></script>
+    <title>Forgotten Password</title>
+</head>
+<body>
+    <section>
+        <div class="login">
+            <h1>Reset your password</h1>
+            <div class="inputbox">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" placeholder="Email" id="email-input">
+            </div>
+            <button id="forgot-password-button" onclick="sendEmail()">Send Email</button>
+            <div id="message-bubble" style="display:none;">We sent you a link to reset your password.</div>
+        </div>
+    </section>
+</body>
+</html>

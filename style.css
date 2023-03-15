@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins.ttf);
+}
+*{
+    font-family: 'Poppins';
+    background-color: #181818
+}
+
+.login{
+    color: white;
+    border: 1px red solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px red;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+
+}
+
+.login:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 10px blue;
+    border: 1px blue solid;
+
+}
+
+form{
+    position: relative;
+    flex :auto;
+}
+
+.inputbox{
+    padding: 4px;
+}
+
+.inputbox input{
+    width: 70%;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.inputbox i:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+.remember a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.remember a:hover{
+    transition: 0.5s;
+    color: blue
+}
+
+button{
+    width: 30%;
+    padding: 5px;
+    border: 1px transparent;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: justify;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: red;
+}
+
+.signup-text{
+    color: white;
+    position: fixed;
+    top: 310px;
+    left: 56%;
+
+}
+
+.signup-text a{
+    color: red;
+    text-decoration: none;
+}
+.signup-text a:hover{
+    transition: 0.3s;
+    color: blue;
+}
+
+
+
+
